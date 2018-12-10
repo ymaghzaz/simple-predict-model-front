@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "simplemodelfront-20181210115132-authRole",
+			"UnauthRoleArn": "arn:aws:iam::382857135464:role/simplemodelfront-20181210115132-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::382857135464:role/simplemodelfront-20181210115132-authRole",
+			"Region": "eu-west-1",
+			"DeploymentBucketName": "simplemodelfront-20181210115132-deployment",
+			"UnauthRoleName": "simplemodelfront-20181210115132-unauthRole",
+			"StackName": "simplemodelfront-20181210115132",
+			"StackId": "arn:aws:cloudformation:eu-west-1:382857135464:stack/simplemodelfront-20181210115132/8e7c5a40-fc69-11e8-a689-0290198c1bb6"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/simplemodelfront-20181210115132-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2018-12-10T10:53:52.936Z",
+			"output": {
+				"S3BucketSecureURL": "https://simple-model-front.s3.amazonaws.com",
+				"WebsiteURL": "http://simple-model-front.s3-website-eu-west-1.amazonaws.com",
+				"Region": "eu-west-1",
+				"HostingBucketName": "simple-model-front"
+			},
+			"lastPushDirHash": "5FiA247r7tRkyIeKAw2xr7ddEWE="
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "simplemodelfront-20181210115132-authRole",
+            "UnauthRoleArn": "arn:aws:iam::382857135464:role/simplemodelfront-20181210115132-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::382857135464:role/simplemodelfront-20181210115132-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "simplemodelfront-20181210115132-deployment",
+            "UnauthRoleName": "simplemodelfront-20181210115132-unauthRole",
+            "StackName": "simplemodelfront-20181210115132",
+            "StackId": "arn:aws:cloudformation:eu-west-1:382857135464:stack/simplemodelfront-20181210115132/8e7c5a40-fc69-11e8-a689-0290198c1bb6"
+        }
+    }
+}
